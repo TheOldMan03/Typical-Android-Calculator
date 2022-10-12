@@ -4,231 +4,273 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ac"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/shape"
         android:text="AC"
         android:textColor="#FF4F00"
         android:textSize="18sp"
         app:backgroundTint=""
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="202dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/percent"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/shape"
         android:text="%"
         android:textColor="#FF4F00"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="202dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b7"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="292dp"
         android:background="@drawable/shape"
         android:text="7"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/div"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/shape"
         android:text="/"
         android:textColor="#FF4F00"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b8"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="292dp"
         android:background="@drawable/shape"
         android:text="8"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b9"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="292dp"
         android:background="@drawable/shape"
         android:text="9"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="284dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/multi"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="292dp"
         android:background="@drawable/shape"
         android:text="x"
         android:textColor="#FF4F00"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="284dp" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b4"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="4"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b1"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="92dp"
         android:background="@drawable/shape"
         android:text="1"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="437dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b2"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="92dp"
         android:background="@drawable/shape"
         android:text="2"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="437dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b3"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="228dp"
         android:background="@drawable/shape"
         android:text="3"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="437dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="453dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/add"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="316dp"
         android:background="@drawable/shape"
         android:text="+"
         android:textColor="#FF4F00"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="437dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="453dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b6"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="6"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sub"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="-"
         android:textColor="#FF4F00"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bzero"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/shape"
         android:text="0"
         android:textColor="@color/white"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/dot"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/shape"
         android:text="."
         android:textColor="@color/white"
         android:textSize="28sp"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/equals"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/shape2"
         android:text="="
         android:textColor="@color/white"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/del"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="208dp"
         android:background="@drawable/shape"
-        app:srcCompat="@drawable/ic_baseline_backspace_24"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="202dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_backspace_24" />
 
     <EditText
         android:id="@+id/input"
         android:layout_width="411dp"
         android:layout_height="65dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#FD000000"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="36dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/result"
         android:layout_width="120dp"
         android:layout_height="65dp"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="115dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b5"
         android:layout_width="55dp"
         android:layout_height="55dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="372dp"
         android:background="@drawable/shape"
         android:text="5"
         android:textColor="@color/white"
         android:textSize="25sp"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="361dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
