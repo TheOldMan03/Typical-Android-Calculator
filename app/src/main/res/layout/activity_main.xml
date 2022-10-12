@@ -8,165 +8,227 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ac"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="AC"
-        android:textSize="18sp"
         android:textColor="#FF4F00"
+        android:textSize="18sp"
         app:backgroundTint=""
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="202dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/percent"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="%"
         android:textColor="#FF4F00"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="202dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b7"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="7"
-        android:textSize="18sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="298dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="284dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/div"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="/"
-        android:textSize="18sp"
         android:textColor="#FF4F00"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="215dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b8"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="8"
-        android:textSize="18sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="301dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="284dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b9"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:textSize="18sp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="9"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="301dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="284dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/multi"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="x"
-        android:textSize="18sp"
         android:textColor="#FF4F00"
-        tools:layout_editor_absoluteX="315dp"
-        tools:layout_editor_absoluteY="301dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="284dp" />
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b4"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="4"
-        android:textSize="18sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteY="384dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="361dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/b5"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:id="@+id/b1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
-        android:text="5"
-        android:textSize="18sp"
+        android:text="1"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="384dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shape"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shape"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shape"
+        android:text="+"
+        android:textColor="#FF4F00"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="437dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/b6"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="6"
-        android:textSize="18sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="381dp" />
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="361dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/sub"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="-"
-        android:textSize="18sp"
         android:textColor="#FF4F00"
-        tools:layout_editor_absoluteX="309dp"
-        tools:layout_editor_absoluteY="382dp" />
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="361dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bzero"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="0"
-        android:textSize="18sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="517dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/dot"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         android:text="."
-        android:textSize="28sp"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="517dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/equals"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:background="@drawable/shape"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shape2"
         android:text="="
-        android:textSize="20sp"
-        android:textColor="#FF4F00"
-        tools:layout_editor_absoluteX="268dp"
-        tools:layout_editor_absoluteY="457dp" />
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="517dp" />
 
     <ImageButton
         android:id="@+id/del"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/shape"
         app:srcCompat="@drawable/ic_baseline_backspace_24"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b5"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shape"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="361dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
