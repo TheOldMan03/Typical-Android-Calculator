@@ -1,2 +1,1 @@
-Only XML side works....not functioning yet
-
+Going to try it in Flutter instead of Kotlin
